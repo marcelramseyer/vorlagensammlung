@@ -1,0 +1,92 @@
+[
+  {
+    "id": "001",
+    "title": "System Usability Scale SUS",
+    "description": "Gerne stellen wir Ihnen Wissen, Erfahrung und 100 % Leidenschaft für Ihre Projekte und Ihre Softwareentwicklung zur Verfügung. Wir helfen Ihnen bei der Erhebung, Strukturierung und Verwaltung von Anforderungen. Wir unterstützen Sie beim Identifizieren von technischen Zusammenhängen und wir realisieren Ihre Anforderungen in Java, .NET oder per Web-Technologie.",
+    "fileFormat": "PDF",
+    "category": "Projektmanagement",
+    "lastUpdated": "2025-04-08",
+    "fileUrl": ""
+  },
+  {
+    "id": "002",
+    "title": "Projektplan",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Excel",
+    "category": "User-Centered Design",
+    "lastUpdated": "2025-05-09",
+    "fileUrl": ""
+  },
+  {
+    "id": "003",
+    "title": "Business Requirement Document",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Excel",
+    "category": "Requirements Engineering",
+    "lastUpdated": "2025-04-10",
+    "fileUrl": ""
+  },
+  {
+    "id": "004",
+    "title": "Usability Findings Liste",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Excel",
+    "category": "User-Centered Design",
+    "lastUpdated": "2025-03-20",
+    "fileUrl": ""
+  },
+  {
+    "id": "005",
+    "title": "Interview Leitfaden",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Word",
+    "category": "User-Centered Design",
+    "lastUpdated": "2025-04-12",
+    "fileUrl": ""
+  },
+  {
+    "id": "006",
+    "title": "Responsibility Assignment Matrix",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Word",
+    "category": "Projektmanagement",
+    "lastUpdated": "2025-04-13",
+    "fileUrl": ""
+  },
+  {
+    "id": "007",
+    "title": "Risiko Register",
+    "description": "test",
+    "fileFormat": "Word",
+    "category": "Projektmanagement",
+    "lastUpdated": "2025-04-14",
+    "fileUrl": ""
+  },
+  {
+    "id": "008",
+    "title": "Stakholder Analyse",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Word",
+    "category": "Projektmanagement",
+    "lastUpdated": "2025-04-15",
+    "fileUrl": ""
+  },
+  {
+    "id": "009",
+    "title": "Konkurrenzanalyse",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Word",
+    "category": "Projektmanagement",
+    "lastUpdated": "2025-04-16",
+    "fileUrl": ""
+  },
+  {
+    "id": "010",
+    "title": "Baxley Model",
+    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
+    "fileFormat": "Word",
+    "category": "Projektmanagement",
+    "lastUpdated": "2025-04-17",
+    "fileUrl": ""
+  }
+]
