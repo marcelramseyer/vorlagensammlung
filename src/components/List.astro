@@ -9,7 +9,10 @@ const sortedPosts = files.sort(
 );
 
 function formatMonthYear(dateStr: string) {
-  const date = new Date(dateStr);
+  // dateStr im Format "DD.MM.YYYY"
+  const [day, month, year] = dateStr.split('.').map(Number);
+  // JS-Monat ist 0-basiert, daher month - 1
+  const date = new Date(year, month - 1, day);
   return `${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()}`;
 }
 
