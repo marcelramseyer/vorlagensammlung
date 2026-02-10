@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+const files = await getCollection('files');
+
+const sortedPosts = files.sort(
+  (a, b) =>
+    new Date(b.data.lastUpdated).getTime() -
+    new Date(a.data.lastUpdated).getTime(),
+);
+
+function formatMonthYear(dateStr: string) {
+  const date = new Date(dateStr);
+  return `${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()}`;
+}
+
+import { Button } from '@/components/starwind/button';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/starwind/accordion';
+import { Badge } from '@/components/starwind/badge';
+---
+
+<div>
+  <Accordion class="">
+    {
+      sortedPosts.map((file: any, index: number) => {
+        const newIndex = index + 1;
+        const formattedIndex = String(newIndex).padStart(3, '0');
+        return (
+          <AccordionItem
+            value="item-1"
+            class="template-item"
+            data-category={file.data.category}
+          >
+            <AccordionTrigger class="text-xl">
+              <div class="flex w-full gap-6">
+                <div class="md:w-20 w-14 md:pl-6 pl-4">{formattedIndex}</div>
+                <div class="md:w-4/12 w-8/12">{file.data.title}</div>
+                <div class="md:flex gap-2 hidden">
+                  <Badge href="#link" variant="outline" size="sm">
+                    {file.data.fileFormat}
+                  </Badge>
+                  <Badge href="#link" variant="outline" size="sm">
+                    {file.data.category}
+                  </Badge>
+                  <Badge href="#link" variant="outline" size="sm">
+                    {/* {new Date(file.data.lastUpdated).toLocaleDateString(
+                        'de-DE',
+                        {
+                          month: '2-digit',
+                          year: 'numeric',
+                          day: '2-digit',
+                        }
+                      )} */}
+                    {formatMonthYear(file.data.lastUpdated)}
+                  </Badge>
+                </div>
+              </div>
+            </AccordionTrigger>
+            <AccordionContent>
+              <div class="flex w-full gap-6">
+                <div class="md:w-20 w-14 md:pl-6 pl-4" />
+                <div class="w-8/12">
+                  <div class="max-w-xl text-sm leading-normal mt-4">
+                    {file.data.description}
+                  </div>
+                  <Button
+                    variant="outline"
+                    class="rounded-full mt-6 mb-6 font-normal text-sm"
+                  >
+                    <a href={file.data.fileUrl}>↓ Download</a>
+                  </Button>
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionItem>
+        );
+      })
+    }
+  </Accordion>
+</div>
+
+<style>
+  #container {
+    font-family:
+      Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial,
+      sans-serif;
+  }
+</style>

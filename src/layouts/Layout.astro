@@ -1,19 +1,30 @@
 ---
 // style import
 import '@/styles/starwind.css';
+
+const title = 'Vorlagensammlung';
+const description =
+  'Vorlagen für Projektmanagement, Business Analysis, Requirements Engineering, UX Design und Prozessmanagement.';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="eden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="Marcel Ramseyer" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
   </head>
   <body>
-    <slot />
+    <div class="id=" container" class="bg-white text-neutral-800" ">
+      <slot />
+    </div>
   </body>
 </html>
 

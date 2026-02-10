@@ -1,92 +1,155 @@
 [
-  {
-    "id": "001",
-    "title": "Data Dictionary",
-    "description": "Ein Data Dictionary ist eine strukturierte Übersicht aller Datenfelder eines Systems oder Projekts, inklusive Name, Datentyp, Beschreibung, Format und Beziehung zu anderen Daten. Es hilft, Verständnis für die Datenstruktur zu schaffen, Konsistenz sicherzustellen und Anforderungen klar zu dokumentieren. Zudem relevant bei der Datenmodellierung, Schnittstellen-Definitionen und Systemdokumentation.",
-    "fileFormat": "Excel",
-    "category": "Business Analysis",
-    "lastUpdated": "2026-02-02",
-    "fileUrl": "https://www.dropbox.com/scl/fi/jxz6c9ycse6iv2dc690nk/Data-Dictionary.xlsx?rlkey=qljnhgudviiv69in9nbrhc8bg&st=esgp75tz&dl=1"
-  },
-  {
-    "id": "002",
-    "title": "Projektplan",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Excel",
-    "category": "User-Centered Design",
-    "lastUpdated": "2025-05-09",
-    "fileUrl": ""
-  },
-  {
-    "id": "003",
-    "title": "Business Requirement Document",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Excel",
-    "category": "Requirements Engineering",
-    "lastUpdated": "2025-04-10",
-    "fileUrl": ""
-  },
-  {
-    "id": "004",
-    "title": "Usability Findings Liste",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Excel",
-    "category": "User-Centered Design",
-    "lastUpdated": "2025-03-20",
-    "fileUrl": ""
-  },
-  {
-    "id": "005",
-    "title": "Interview Leitfaden",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Word",
-    "category": "User-Centered Design",
-    "lastUpdated": "2025-04-12",
-    "fileUrl": ""
-  },
-  {
-    "id": "006",
-    "title": "Responsibility Assignment Matrix",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Word",
-    "category": "Projektmanagement",
-    "lastUpdated": "2025-04-13",
-    "fileUrl": ""
-  },
-  {
-    "id": "007",
-    "title": "Risiko Register",
-    "description": "test",
-    "fileFormat": "Word",
-    "category": "Projektmanagement",
-    "lastUpdated": "2025-04-14",
-    "fileUrl": ""
-  },
-  {
-    "id": "008",
-    "title": "Stakholder Analyse",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Word",
-    "category": "Projektmanagement",
-    "lastUpdated": "2025-04-15",
-    "fileUrl": ""
-  },
-  {
-    "id": "009",
-    "title": "Konkurrenzanalyse",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Word",
-    "category": "Projektmanagement",
-    "lastUpdated": "2025-04-16",
-    "fileUrl": ""
-  },
-  {
-    "id": "010",
-    "title": "Baxley Model",
-    "description": "Die Pflege und Weiterentwicklung von Software ist nicht immer einfach. Benötigen Sie technische Expertise bei der Entwicklung einer neuen Komponente in Java oder .NET für Frontend, Backend oder als Full Stack? Fehlen Ihnen Kapazitäten bei der Ablösung einer vorhandenen Anwendung, bei der Anpassung einer Webanwendung oder bei der Anbindung von verschiedenen Tools? ",
-    "fileFormat": "Word",
-    "category": "Projektmanagement",
-    "lastUpdated": "2025-04-17",
-    "fileUrl": ""
-  }
+ {
+   "id": 3,
+   "title": "Content Inventory",
+   "description": "Ein Content Inventory ist eine strukturierte Liste aller Inhalte einer Website oder Anwendung. Es hilft, den Überblick über bestehende Inhalte zu behalten, veraltete oder doppelte Inhalte zu erkennen, und dient als Grundlage für Content-Audits, Website-Redesigns, Migrationen in neue CMS-Systeme sowie die Planung und Weiterentwicklung von Content-Strategien.",
+   "fileFormat": "Excel",
+   "category": "UX Design",
+   "lastUpdated": "02.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 4,
+   "title": "Data Dictionary",
+   "description": "Ein Data Dictionary ist eine strukturierte Übersicht aller Datenfelder eines Systems oder Projekts, inklusive Name, Datentyp, Beschreibung, Format und Beziehung zu anderen Daten. Es hilft, Verständnis für die Datenstruktur zu schaffen, Konsistenz sicherzustellen und Anforderungen klar zu dokumentieren. Zudem relevant bei der Datenmodellierung, Schnittstellen-Definitionen und Systemdokumentation.",
+   "fileFormat": "Excel",
+   "category": "Business Analysis",
+   "lastUpdated": "02.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 5,
+   "title": "Gap Analyse",
+   "description": "Eine Gap-Analyse ist ein strategisches Instrument, das den aktuellen Ist-Zustand mit einem gewünschten Soll-Zustand vergleicht. Sie zeigt auf, welche Leistungs- oder Prozesslücken bestehen, um Verbesserungsmaßnahmen zu planen, Ressourcen effizient einzusetzen und strategische Ziele wie Effizienzsteigerung oder Umsatzwachstum zu erreichen.",
+   "fileFormat": "Excel",
+   "category": "Business Analysis",
+   "lastUpdated": "02.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 6,
+   "title": "Information Architecture",
+   "description": "Die Informationsarchitektur beschreibt die Struktur, Organisation und Navigation von Inhalten innerhalb einer Website, Anwendung oder eines Systems. Sie sorgt dafür, dass Informationen logisch und benutzerfreundlich angeordnet sind, Such- und Findbarkeit verbessert werden und Nutzer:innen Inhalte effizient erreichen können. Informationsarchitekturen werden typischerweise bei Website-Redesigns, der Entwicklung neuer digitaler Produkte oder bei der Planung komplexer Content-Strukturen erstellt.",
+   "fileFormat": "Excel",
+   "category": "UX Design",
+   "lastUpdated": "02.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 7,
+   "title": "Projektplan",
+   "description": "Ein Projektplan dokumentiert Aufgaben, Zeitrahmen und Dauer einzelner Arbeitspakete innerhalb eines Projekts. Er dient dazu, Abläufe zu strukturieren, Termine einzuhalten und den Fortschritt zu überwachen. Projektpläne werden typischerweise zu Beginn eines Projekts erstellt und während der Umsetzung gepflegt.",
+   "fileFormat": "Excel",
+   "category": "Projektmanagement",
+   "lastUpdated": "02.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 8,
+   "title": "RACI",
+   "description": "Eine RACI-Matrix stellt Rollen und Verantwortlichkeiten innerhalb eines Projekts oder Prozesses übersichtlich dar. Sie definiert, wer für Aufgaben verantwortlich ist, wer Entscheidungen trifft, wer konsultiert wird und wer informiert werden soll. Dadurch werden Missverständnisse reduziert und die Zusammenarbeit klarer organisiert. Die RACI-Matrix wird typischerweise beim Projektstart oder bei der Definition von Prozessen erstellt.",
+   "fileFormat": "Excel",
+   "category": "Projektmanagement",
+   "lastUpdated": "02.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 9,
+   "title": "Risikoliste",
+   "description": "Eine Risikoliste erfasst potenzielle Risiken, die den Projektverlauf oder den Projekterfolg beeinträchtigen könnten, und dokumentiert deren Wahrscheinlichkeit, Auswirkungen und mögliche Gegenmaßnahmen. Sie hilft, Risiken systematisch zu erkennen, zu bewerten und gezielt zu steuern. Risikolisten werden typischerweise zu Beginn eines Projekts erstellt und während der gesamten Projektlaufzeit aktualisiert.",
+   "fileFormat": "Excel",
+   "category": "Projektmanagement",
+   "lastUpdated": "02.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 10,
+   "title": "Protokoll",
+   "description": "Ein Protokoll ist eine schriftliche Zusammenfassung von Besprechungen, Entscheidungen und Vereinbarungen. Es dient dazu, Informationen festzuhalten, Verantwortlichkeiten zu klären und als Referenz für spätere Nachverfolgung und Projektfortschritt.",
+   "fileFormat": "Word",
+   "category": "Projektmanagement",
+   "lastUpdated": "04.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 11,
+   "title": "SUS Fragebogen",
+   "description": "Der SUS-Fragebogen (System Usability Scale) ist ein standardisiertes Instrument zur Messung der Benutzerfreundlichkeit von Systemen, Produkten oder Software. Er liefert quantitative Ergebnisse, mit denen die Usability bewertet, verglichen und Verbesserungen priorisiert werden können. Wird bei Usability-Tests, Walkthroughts oder anderen Evaluationsmethoden eingesetzt.",
+   "fileFormat": "Word",
+   "category": "UX Design",
+   "lastUpdated": "04.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 12,
+   "title": "SUS Auswertung",
+   "description": "Die SUS-Auswertung interpretiert die Ergebnisse des System Usability Scale (SUS)-Fragebogens, um die Benutzerfreundlichkeit eines Systems oder Produkts quantitativ zu bewerten. Sie zeigt, wie gut Nutzer das System wahrnehmen, erlaubt Vergleiche zwischen Versionen oder Systemen und unterstützt die Priorisierung von Verbesserungsmaßnahmen in UX und Produktentwicklung.",
+   "fileFormat": "Excel",
+   "category": "UX Design",
+   "lastUpdated": "04.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 13,
+   "title": "Usability Findings",
+   "description": "Eine Usability Findings Liste dokumentiert beobachtete Probleme, Verbesserungspotenziale und Erkenntnisse aus Usability-Tests oder Nutzerbefragungen. Sie hilft, die Benutzerfreundlichkeit eines Produkts systematisch zu bewerten und gezielte Optimierungen abzuleiten. Usability Findings Listen werden typischerweise nach Tests oder Evaluationsrunden erstellt und als Grundlage für Design- und Entwicklungsentscheidungen genutzt.",
+   "fileFormat": "Excel",
+   "category": "UX Design",
+   "lastUpdated": "04.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 14,
+   "title": "SWOT-Analyse",
+   "description": "Die SWOT-Analyse ist ein einfaches Instrument zur strukturierten Betrachtung von Stärken, Schwächen, Chancen und Risiken eines Produkts, Projekts oder Unternehmens. Sie unterstützt strategische Entscheidungen und hilft, interne und externe Faktoren gemeinsam zu betrachten. Die Methode wird häufig in Strategie-Workshops, in frühen Projektphasen oder bei Produktentscheidungen eingesetzt.",
+   "fileFormat": "Word",
+   "category": "Business Analysis",
+   "lastUpdated": "05.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 15,
+   "title": "Konkurrenzanalyse",
+   "description": "Eine Konkurrenzanalyse untersucht Produkte, Dienstleistungen oder Strategien von Mitbewerbern, um deren Stärken, Schwächen und Positionierung im Markt besser zu verstehen. Sie hilft, Differenzierungsmöglichkeiten zu erkennen, eigene Entscheidungen zu begründen und Marktchancen systematisch zu bewerten. Konkurrenzanalysen werden typischerweise in der Produktentwicklung, bei strategischen Entscheidungen oder vor der Einführung neuer Angebote durchgeführt.",
+   "fileFormat": "Excel",
+   "category": "Business Analysis",
+   "lastUpdated": "05.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 16,
+   "title": "Use Case",
+   "description": "Ein Use Case beschreibt, wie eine Nutzerin oder ein Nutzer mit einem System interagiert, um ein bestimmtes Ziel zu erreichen. Dabei werden beteiligte Akteure, Systemgrenzen sowie der normale Ablauf und mögliche Alternativen strukturiert festgehalten. Use Cases helfen, Anforderungen verständlich zu dokumentieren und ein gemeinsames Verständnis zwischen Fachbereich, Design und Entwicklung zu schaffen. Sie werden typischerweise während der Anforderungsanalyse und in der Konzeptionsphase eines Systems erstellt.",
+   "fileFormat": "Word",
+   "category": "Requiremnts Engineering",
+   "lastUpdated": "05.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 17,
+   "title": "Brainwriting 6-5-3",
+   "description": "Brainwriting 6-5-3 ist eine strukturierte Kreativitätsmethode, bei der mehrere Personen parallel Ideen entwickeln und schriftlich weitergeben. Dadurch entstehen in kurzer Zeit viele unterschiedliche Lösungsansätze, ohne dass einzelne Personen die Diskussion dominieren. Die Methode wird vor allem in frühen Konzept- und Innovationsphasen eingesetzt.",
+   "fileFormat": "Excel",
+   "category": "Kreativitätstechiken",
+   "lastUpdated": "05.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 19,
+   "title": "Stakeholderanalyse",
+   "description": "Eine Stakeholder-Analyse identifiziert alle Personen und Gruppen, die von einem Projekt betroffen sind oder Einfluss darauf haben. Sie hilft, Interessen, Erwartungen und Einflussmöglichkeiten transparent zu machen und eine passende Kommunikations- und Einbindungsstrategie zu entwickeln. Die Methode wird typischerweise zu Beginn eines Projekts oder bei grösseren Veränderungen im organisatorischen Umfeld eingesetzt.",
+   "fileFormat": "Excel",
+   "category": "Projektmanagement",
+   "lastUpdated": "09.02.2026",
+   "fileUrl": ""
+ },
+ {
+   "id": 20,
+   "title": "Issue Register",
+   "description": "Ein Issue Register ist eine zentrale Liste zur Dokumentation von Problemen, offenen Punkten und Risiken in einem Projekt. Es hilft, den Überblick zu behalten, Verantwortlichkeiten festzulegen und die Bearbeitung von Themen nachzuverfolgen. Ein Issue Register wird während der gesamten Projektlaufzeit geführt und regelmässig aktualisiert.",
+   "fileFormat": "Excel",
+   "category": "Projektmanagement",
+   "lastUpdated": "09.02.2026",
+   "fileUrl": ""
+ }
 ]
